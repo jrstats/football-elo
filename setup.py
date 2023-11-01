@@ -15,6 +15,7 @@ setup(
         "html5lib",
         "beautifulsoup4",
         "glom",
+        "matplotlib"
     ],
     author="James Robinson",
     license="Apache-2.0",
