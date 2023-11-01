@@ -27,6 +27,7 @@ def update_ratings(rating_x, rating_y, result_x):
     return rating_x_new, rating_y_new
 
 def get_result(goals_x, goals_y, xg_x=None, xg_y=None):
+    # TODO: use xG
     if goals_x > goals_y:
         return 1
     elif goals_x == goals_y:
